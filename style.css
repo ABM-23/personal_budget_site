@@ -1,0 +1,51 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.expense-info-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.expense-category-radio {
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1em;
+    border-color: #faf200
+}
+
+.radio-labels {
+    display: flex;
+    flex-direction: column;
+    text-wrap: nowrap;
+    margin: 0.5em;
+}
+
+.radio-buttons {
+    margin: 0.5em;
+}
+
+.input-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 0.5em;
+}
+
+.input-element> input {
+    margin-left: 1em;
+    width: 10em;
+    text-align: center;
+}
+.comment {
+    justify-content: center;
+}
+.comment > textarea{
+    width: 17em;
+    min-height: 1em;
+    text-align: center;
+}
