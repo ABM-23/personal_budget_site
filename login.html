@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dodaj wydatek</title>
+    <title>Strona logowania</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -36,84 +36,7 @@
         </div>
       </header>
       <main class="border-top">
-      <h5 class="text-center py-2 my-2">Dodawanie wydatku</h5>
-      <div class="form-container">
-        <div class="border p-2 m-2">
-          <div class="expense-info-container">
-            <div class="input-element">
-              <label for="expenseValue">Kwota wydatku:</label>
-              <input type="text" id="expenseValue" name="expValue">
-            </div>
-            <div class="input-element">
-              <label for="expenseDate">Data wydatku:</label>
-              <input type="date" id="expenseDate" name="expDate"><br>
-            </div>
-          </div>
-          <h6 class="text-center">Wybierz metodę płatności:</h6>
-          <div class="expense-category-radio m-3">
-            <div class="radio-buttons">
-              <input type="radio" id="category-food" name="paymentType" value="cash"><br>
-              <input type="radio" id="category-housing" name="paymentType" value="credit"><br>
-              <input type="radio" id="category-housing" name="paymentType" value="debit"><br>
-            </div>
-            <div class="radio-labels">
-              <label for="type-cash">Gotówka</label>
-              <label for="type-credit">Karta kredytowa</label>
-              <label for="type-debit">Karta debetowa</label>
-            </div>
-          </div>
-
-          <h6 class="text-center">Wybierz kategorię wydatku:</h6>
-          <div class="expense-category-radio m-3">
-            <div class="radio-buttons">
-              <input type="radio" id="category-food" name="expenseCategory" value="food"><br>
-              <input type="radio" id="category-housing" name="expenseCategory" value="housing"><br>
-              <input type="radio" id="category-transport" name="expenseCategory" value="transport"><br>
-              <input type="radio" id="category-telecommunication" name="expenseCategory" value="telecomunication"><br>
-              <input type="radio" id="category-healthcare" name="expenseCategory" value="healthcare"><br>
-              <input type="radio" id="category-clothing" name="expenseCategory" value="clothing"><br>
-              <input type="radio" id="category-hygiene" name="expenseCategory" value="hygiene"><br>
-              <input type="radio" id="category-children" name="expenseCategory" value="children"><br>
-              <input type="radio" id="category-entertainment" name="expenseCategory" value="entertainment"><br>
-              <input type="radio" id="category-travels" name="expenseCategory" value="travels"><br>
-              <input type="radio" id="category-learning" name="expenseCategory" value="learning"><br>
-              <input type="radio" id="category-books" name="expenseCategory" value="books"><br>
-              <input type="radio" id="category-savings" name="expenseCategory" value="savings"><br>
-              <input type="radio" id="category-pension" name="expenseCategory" value="pension"><br>
-              <input type="radio" id="category-debts" name="expenseCategory" value="debts"><br>
-              <input type="radio" id="category-donation" name="expenseCategory" value="donation"><br>
-              <input type="radio" id="category-other" name="expenseCategory" value="other"><br>
-            </div>
-            <div class="radio-labels">
-              <label for="category-food">Jedzenie</label>
-              <label for="category-housing">Mieszkanie</label>
-              <label for="category-transport">Transport</label>
-              <label for="category-telecommunication">Telekomunikacja</label>
-              <label for="category-healthcare">Opieka zdrowotna</label>
-              <label for="category-clothing">Ubranie</label>
-              <label for="category-hygiene">Higiena</label>
-              <label for="category-children">Dzieci</label>
-              <label for="category-entertainment">Rozrywka</label>
-              <label for="category-travels">Wycieczka</label>
-              <label for="category-learning">Szkolenia</label>
-              <label for="category-books">Książki</label>
-              <label for="category-savings">Oszczędności</label>
-              <label for="category-pension">Na złotą jesień, czyli emeryturę</label>
-              <label for="category-debts">Spłata długów</label>
-              <label for="category-donation">Darowizna</label>
-              <label for="category-other">Inne wydatki</label>
-            </div>
-          </div>
-          <h6 class="text-center">Komentarz:</h6>
-          <div class= "comment mx-3">
-            <textarea id="comment" class="textarea" name="comment" placeholder="Wprowadź komentarz (opcjonalnie)"></textarea>
-          </div>
-          <div class="m-3 text-center">
-            <button type="button" class="btn btn-warning">Dodaj wydatek</button>
-            <button type="button" class="btn btn-secondary">Anuluj</button>
-          </div>
-        </div>
-      </div>
+        
       </main>
       <footer>
           <p class="py-3 my-2 text-center text-white border-top text-bg-dark">Aplikacja - Budżet osobisty</p>
