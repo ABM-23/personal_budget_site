@@ -117,7 +117,6 @@
     text-align: start;
     border: 1px solid white;
     border-radius: 1em;
-
 }
 
 .category-value-container{
@@ -125,4 +124,12 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0.4em 1em 0em;
+}
+
+.cashflow-container > h5{
+    margin-top: 2em;
+}
+
+.category-value-container > h6{
+    text-align: center;
 }
